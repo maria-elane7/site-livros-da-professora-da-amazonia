@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÕES GERAIS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --cor01:#193140;
+    --cor02:#6FA663;
+    --cor03:#F2F2F2;
+    --cor04:#0B3116;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+    background-color: var(--cor02);
+    overflow-x: hidden;
+}
+
+/* CONFIGURAÇÃO DO HEADER */
+
+.logo{
+    height: 120px;
+    display:flex;
+    align-items: center;
+    padding:25px;
+    background-color: var(--cor02);
+}
+
+.logo img{
+    margin: 20px;
+}
+
+/* CONFIGURAÇÃO DO LIVRO 1 */
+
+.container-principal{
+    display: flex;
+    align-items: center;
+    min-height:100vh;
+    width: 100vw;
+    background-color: var(--cor02);
+    padding:5px;
+}
+
+.container-principal .flex{
+    gap:80px;
+}
+
+.flex{
+    display:flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin:3% 10%;
+}
+
+.texto-sobre-o-livro{
+    display: flex;
+    flex-direction:column;
+    text-align: justify;
+    min-width: 300px;
+    max-width: 100%;
+    padding:0 15px;
+    
+}
+
+.texto-sobre-o-livro h1{
+    font-size:1.6em;
+    padding:7px;
+    color:var(--cor01);
+   
+}
+
+.texto-sobre-o-livro p{
+    text-indent:20px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+   color:black;
+    
+}
+
+.btn{
+    margin:30px;
+}
+
+button{
+    background-color:var(--cor01);
+    padding:20px;
+    border-radius:10px;
+    color:var(--cor02);
+    text-decoration:none;
+    border:none;
+    box-shadow:0px 0px 3px rgba(0, 0, 0, 0.418);
+    font-weight:500;
+}
+
+button:hover{
+    background-color: #193241ee;
+    color:#6a8146;
+}
+
+.container-principal img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* CONFIGURAÇÃO DO LIVRO 2 */
+
+.container-livro2{
+    display: flex;
+    align-items: center;
+    min-height:100vh;
+    width: 100vw;
+    background-color:var(--cor02);
+    padding:5px;
+}
+
+.container-livro2 .flex{
+    gap:80px;
+}
+
+.container-livro2 h1{
+    color:var(--cor04);
+}
+
+.container-livro2 p{
+    color:black;
+}
+
+.container-livro2 .flex img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.container-livro2 button{
+    background-color: var(--cor04);
+    color:var(--cor02);
+}
+
+.container-livro2 button:hover{
+    background-color: #0b3116e5;
+    color:#6a8146;
+}
+
+/* CONFIGURAÇÕES DO RODAPÉ */
+
+footer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap:40px;
+    padding:10px;
+    font-size:1.7em;
+}
+
+footer ul li a{
+    color:var(--cor04)
+}
+
+footer ul li a:hover{
+    color:#ccccccbe;
+}
+
+
+
+

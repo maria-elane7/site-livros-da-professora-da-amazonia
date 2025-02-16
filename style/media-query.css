@@ -1,0 +1,56 @@
+/* Estilos para telas menores que 1024px (tablets) */
+@media (max-width: 1024px) {
+    .flex {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 5%;
+    }
+    .texto-sobre-o-livro {
+        min-width: auto;
+        max-width: 90%;
+    }
+}
+
+/* Estilos para telas menores que 768px (celulares grandes) */
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 15px;
+    }
+    .logo img {
+        margin: 10px 0;
+    }
+    
+    .container-principal, .container-livro2 {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .texto-sobre-o-livro {
+        min-width: auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .btn {
+        text-align: center;
+    }
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Estilos para telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    .texto-sobre-o-livro p {
+        font-size: 1rem;
+    }
+    button {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+}
