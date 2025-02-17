@@ -25,7 +25,8 @@
     
     .container-principal, .container-livro2 {
         flex-direction: column-reverse;
-        padding: 20px;
+        padding: 15px;
+       
     }
     .texto-sobre-o-livro {
         min-width: auto;
