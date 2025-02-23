@@ -33,6 +33,11 @@
         max-width: 100%;
         text-align: center;
     }
+    .texto-sobre-o-livro p{
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+    
     .btn {
         text-align: center;
     }
@@ -48,7 +53,8 @@
         font-size: 1.5em;
     }
     .texto-sobre-o-livro p {
-        font-size: 1rem;
+        font-size: 1.1rem;
+        text-align: justify;
     }
     button {
         font-size: 0.9rem;
