@@ -34,8 +34,8 @@
         text-align: center;
     }
     .texto-sobre-o-livro p{
-        text-align: justify;
-        font-size: 1.1rem;
+        text-align: left;
+        font-size: 1.3rem;
     }
     
     .btn {
@@ -53,8 +53,8 @@
         font-size: 1.5em;
     }
     .texto-sobre-o-livro p {
-        font-size: 1.1rem;
-        text-align: justify;
+        font-size: 1.2rem;
+        text-align: left;
     }
     button {
         font-size: 0.9rem;
