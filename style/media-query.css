@@ -52,7 +52,7 @@
 /* Estilos para telas menores que 480px (celulares pequenos) */
 @media (max-width: 480px) {
     h1 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
     .texto-sobre-o-livro{
         font-size: 1em;
